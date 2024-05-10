@@ -1,0 +1,75 @@
+body{
+    background: url("hatter.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+
+#game{
+    width: 600px;
+    height: 600px;
+    background-color: #f8cacf;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game img{
+    width: 75px;
+    height: 75px;
+}
+
+#scoreboard{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #f8cacf;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.selected {
+    animation: bounce 0.3s;
+}
+
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    color: black;
+    background: #f8cacf;
+    border-radius: 10px;
+    border: solid black 3px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 35px;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px;
+    color: black;
+    background: #f8cacf;
+    border-radius: 10px;
+    border: solid black 3px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 35px;
+}

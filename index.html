@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejeweled</title>
+    <script src="EEUCFW/jquery-3.6.4.min.js"></script>
+    <script src="EEUCFW/javascript.js"></script>
+    <link rel="stylesheet" href="EEUCFW/style.css">
+</head>
+<body>
+<h2 id="scoreboard">Pontszám: <span id="pont">0</span></h2>
+<div id="lista">
+    <h1>Toplista</h1>
+    <table id="toplista">
+        <tr>
+            <th>Név</th>
+            <th>Pontszám</th>
+        </tr>
+    </table>
+</div>
+<div>
+    <form>
+        <label for="nev">Név:</label>
+        <input type="text" id="nev" name="nev" required>
+        <br>
+        <button type="button" onclick="saveScore()">Mentsd el a pontomat</button>
+    </form>
+</div>
+<div id="game"></div>
+<audio id="click-sound" src="./EEUCFW/click.mp3"></audio>
+<audio id="bg-music" src="./EEUCFW/zene.mp3" loop></audio>
+</body>
+</html>
